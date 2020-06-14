@@ -12,7 +12,7 @@
   gw = switch
   gs = status
   gp = push
-  gc = commit -m 
+  gc = commit -m
   ga = add .
   cp = cherry-pick
   amend = commit -a --amend --no-edit
@@ -20,7 +20,7 @@
 [push]
   default = current
 [core]
-  pager = delta --theme="night-owlish"
+  pager = delta --theme='Monokai Extended'
 [interactive]
     diffFilter = delta --color-only
 [color]
