@@ -1,20 +1,22 @@
 [user]
-  name = Kent C. Dodds
-  email = me+github@kentcdodds.com
-
+  name = Charles Assuncao
+  email = junioassuncaocharles@gmail.com
+[pager]
+  branch = false
+  log = false
 [pull]
   rebase = true
 [branch]
   autosetuprebase = always
 [alias]
-  rh = reset --hard HEAD
-  b = checkout -b
-  co = checkout
-  ca = commit -a --verbose
+  gw = switch
+  gs = status
+  gp = push
+  gc = commit -m 
+  ga = add .
   cp = cherry-pick
   amend = commit -a --amend --no-edit
   unstage = reset --soft HEAD
-  cdiff = "!git diff $1 $1^"
 [push]
   default = current
 [core]
