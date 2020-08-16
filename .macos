@@ -51,12 +51,12 @@ npm install --global serve fkill-cli npm-quick-run \
 semantic-release-cli npm-check-updates
 
 echo "installing apps with brew cask"
-brew cask install alfred google-chrome firefox brave-browser bettertouchtool divvy \
+brew cask install alfred google-chrome firefox tiles recordit bettertouchtool divvy \
 bartender google-drive-file-stream itsycal visual-studio-code 1password dash \
-screenflow marshallofsound-google-play-music-player skype workflowy \
+marshallofsound-google-play-music-player skype workflowy \
 sublime-text vlc discord obs handbrake zoomus betterzip avibrazil-rdm sip \
 qlcolorcode qlmarkdown qlstephen quicklook-json webpquicklook \
-suspicious-package qlvideo spotify focus dropbox front qmoji slack
+suspicious-package qlvideo spotify focus front qmoji slack
 
 echo "Generating an RSA token for GitHub"
 mkdir -p ~/.ssh
