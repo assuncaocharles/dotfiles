@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions"
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "posthog@claude-plugins-official": true,
+    "railway@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "claude-mem@thedotmack": true,
+    "swift-lsp@claude-plugins-official": true,
+    "warp@claude-code-warp": true
+  },
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    "claude-code-warp": {
+      "source": {
+        "source": "github",
+        "repo": "warpdotdev/claude-code-warp"
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark"
+}

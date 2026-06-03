@@ -1,0 +1,330 @@
+{
+  "version": 3,
+  "skills": {
+    "remotion-best-practices": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/remotion-dev/skills.git",
+      "skillPath": "skills/remotion/SKILL.md",
+      "skillFolderHash": "d0bc7b74666ce228ba1e37156520d5ada5bbc889",
+      "installedAt": "2026-04-02T14:27:02.406Z",
+      "updatedAt": "2026-04-02T14:27:02.406Z"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/skills.git",
+      "skillPath": "skills/find-skills/SKILL.md",
+      "skillFolderHash": "3013fdeb8a11b10b1eb795ec3ae8bfca38f7c26d",
+      "installedAt": "2026-04-02T14:27:06.716Z",
+      "updatedAt": "2026-04-02T14:27:06.716Z"
+    },
+    "auth0-mfa": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0/skills/auth0-mfa/SKILL.md",
+      "skillFolderHash": "4b81513a2667df3029995c46fe25a0a57d6d6d02",
+      "installedAt": "2026-04-20T13:27:44.917Z",
+      "updatedAt": "2026-04-20T13:27:44.917Z"
+    },
+    "auth0-migration": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0/skills/auth0-migration/SKILL.md",
+      "skillFolderHash": "447ce861d309f9e24e0f7b55ff3104f4891df12d",
+      "installedAt": "2026-04-20T13:27:45.329Z",
+      "updatedAt": "2026-04-20T13:27:45.329Z"
+    },
+    "auth0-quickstart": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0/skills/auth0-quickstart/SKILL.md",
+      "skillFolderHash": "596b42cd721b647839494684c7e84eea955de606",
+      "installedAt": "2026-04-20T13:27:45.711Z",
+      "updatedAt": "2026-04-20T13:27:45.711Z"
+    },
+    "auth0-android": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-android/SKILL.md",
+      "skillFolderHash": "0288639b187484ba43ae9455885d65e3daa2f4e0",
+      "installedAt": "2026-04-20T13:27:46.081Z",
+      "updatedAt": "2026-04-20T13:27:46.081Z"
+    },
+    "auth0-angular": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-angular/SKILL.md",
+      "skillFolderHash": "ee9050b0f32c3df997c45daab5d46983508b47ad",
+      "installedAt": "2026-04-20T13:27:46.468Z",
+      "updatedAt": "2026-04-20T13:27:46.468Z"
+    },
+    "auth0-aspnetcore-api": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-aspnetcore-api/SKILL.md",
+      "skillFolderHash": "2f9142aa4c7dc4a6d8aaedd028ab90677165c25e",
+      "installedAt": "2026-04-20T13:27:46.882Z",
+      "updatedAt": "2026-04-20T13:27:46.882Z"
+    },
+    "auth0-expo": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-expo/SKILL.md",
+      "skillFolderHash": "6a5d1ad9e58c518188595140309830f07019a047",
+      "installedAt": "2026-04-20T13:27:47.296Z",
+      "updatedAt": "2026-04-20T13:27:47.296Z"
+    },
+    "auth0-express": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-express/SKILL.md",
+      "skillFolderHash": "13905da20f198f7a717b477dffb5b0c4ce3b4fd1",
+      "installedAt": "2026-04-20T13:27:47.698Z",
+      "updatedAt": "2026-04-20T13:27:47.698Z"
+    },
+    "auth0-fastapi-api": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-fastapi-api/SKILL.md",
+      "skillFolderHash": "6b99809b63ff5d08778e34e15b3e296f87894923",
+      "installedAt": "2026-04-20T13:27:48.112Z",
+      "updatedAt": "2026-04-20T13:27:48.112Z"
+    },
+    "auth0-fastify": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-fastify/SKILL.md",
+      "skillFolderHash": "b447b44597074ab13c7cd937d3db8bffd34b02c6",
+      "installedAt": "2026-04-20T13:27:48.504Z",
+      "updatedAt": "2026-04-20T13:27:48.504Z"
+    },
+    "auth0-fastify-api": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-fastify-api/SKILL.md",
+      "skillFolderHash": "a0712611dbd073f43c64dfce34428e1390daa5b2",
+      "installedAt": "2026-04-20T13:27:48.909Z",
+      "updatedAt": "2026-04-20T13:27:48.909Z"
+    },
+    "auth0-flask": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-flask/SKILL.md",
+      "skillFolderHash": "e52a2a68725ab7be7a44ad3027e5654cc1b258e5",
+      "installedAt": "2026-04-20T13:27:49.315Z",
+      "updatedAt": "2026-04-20T13:27:49.315Z"
+    },
+    "auth0-nextjs": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-nextjs/SKILL.md",
+      "skillFolderHash": "419a12130318470a529d910983b6c3e5c8c47c2f",
+      "installedAt": "2026-04-20T13:27:49.707Z",
+      "updatedAt": "2026-04-20T13:27:49.707Z"
+    },
+    "auth0-nuxt": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-nuxt/SKILL.md",
+      "skillFolderHash": "7a2208653e8bd342049efcd8aa0745c8e45828c8",
+      "installedAt": "2026-04-20T13:27:50.105Z",
+      "updatedAt": "2026-04-20T13:27:50.105Z"
+    },
+    "auth0-react": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-react/SKILL.md",
+      "skillFolderHash": "947e88fe546aef62504648a3935e59fd5b6433c0",
+      "installedAt": "2026-04-20T13:27:50.511Z",
+      "updatedAt": "2026-04-20T13:27:50.511Z"
+    },
+    "auth0-react-native": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-react-native/SKILL.md",
+      "skillFolderHash": "8e8f72d69d1679a16eb8a65d92f3db96f2898dab",
+      "installedAt": "2026-04-20T13:27:50.887Z",
+      "updatedAt": "2026-04-20T13:27:50.887Z"
+    },
+    "auth0-spa-js": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-spa-js/SKILL.md",
+      "skillFolderHash": "4997ea511d3e990463e82d27a29b799aad1172ab",
+      "installedAt": "2026-04-20T13:27:51.298Z",
+      "updatedAt": "2026-04-20T13:27:51.298Z"
+    },
+    "auth0-swift": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-swift/SKILL.md",
+      "skillFolderHash": "4974c150d7cc09b7e86f1a822c94f08a5dcc3710",
+      "installedAt": "2026-04-20T13:27:51.741Z",
+      "updatedAt": "2026-04-20T13:27:51.741Z"
+    },
+    "auth0-vue": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/auth0-vue/SKILL.md",
+      "skillFolderHash": "62d14e38fd9f6b7821f1a74c530699a13b7c519f",
+      "installedAt": "2026-04-20T13:27:52.171Z",
+      "updatedAt": "2026-04-20T13:27:52.171Z"
+    },
+    "express-oauth2-jwt-bearer": {
+      "source": "auth0/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/auth0/agent-skills.git",
+      "skillPath": "plugins/auth0-sdks/skills/express-oauth2-jwt-bearer/SKILL.md",
+      "skillFolderHash": "39dcef4567918a190909dfdbfb678fedaebe35f7",
+      "installedAt": "2026-04-20T13:27:52.586Z",
+      "updatedAt": "2026-04-20T13:27:52.586Z"
+    },
+    "animejs": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/animejs/SKILL.md",
+      "skillFolderHash": "17f5477c8f572f3f51a5d2ec7f82c8b31ddec5b9",
+      "installedAt": "2026-05-01T03:21:46.601Z",
+      "updatedAt": "2026-05-01T03:49:28.092Z"
+    },
+    "css-animations": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/css-animations/SKILL.md",
+      "skillFolderHash": "45f3556a2c27e9455161296630c40d1ac641c850",
+      "installedAt": "2026-05-01T03:21:46.603Z",
+      "updatedAt": "2026-05-01T03:49:28.094Z"
+    },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "skillFolderHash": "ae79cb09264744a410c0654132a74f8002cecd53",
+      "installedAt": "2026-05-01T03:21:46.604Z",
+      "updatedAt": "2026-05-01T03:49:28.096Z"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "skillFolderHash": "604da28599945d01f51714021fe7598030356734",
+      "installedAt": "2026-05-01T03:21:46.604Z",
+      "updatedAt": "2026-05-01T03:49:28.096Z"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "skillFolderHash": "f9b2f8e7906c2ef745e961cc04d33f9825b7f541",
+      "installedAt": "2026-05-01T03:21:46.605Z",
+      "updatedAt": "2026-05-01T03:49:28.097Z"
+    },
+    "gsap": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/gsap/SKILL.md",
+      "skillFolderHash": "3da6bb712feada2675b91ed7a1167f46b41a3cab",
+      "installedAt": "2026-05-01T03:21:46.605Z",
+      "updatedAt": "2026-05-01T03:49:28.095Z"
+    },
+    "lottie": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/lottie/SKILL.md",
+      "skillFolderHash": "c7cd5e5500582dc5ece984f39d17e6b92d16fc1d",
+      "installedAt": "2026-05-01T03:21:46.606Z",
+      "updatedAt": "2026-05-01T03:49:28.097Z"
+    },
+    "remotion-to-hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/remotion-to-hyperframes/SKILL.md",
+      "skillFolderHash": "4011db289fe87eb168186dc0286553859730886b",
+      "installedAt": "2026-05-01T03:21:46.606Z",
+      "updatedAt": "2026-05-01T03:49:28.097Z"
+    },
+    "tailwind": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/tailwind/SKILL.md",
+      "skillFolderHash": "4544119a5fab759d74fc03fb8010c86c3660dfd4",
+      "installedAt": "2026-05-01T03:21:46.607Z",
+      "updatedAt": "2026-05-01T03:49:28.097Z"
+    },
+    "three": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/three/SKILL.md",
+      "skillFolderHash": "874f2e57f485ddda2669ca7ed3bd47e85c6e0f5d",
+      "installedAt": "2026-05-01T03:21:46.607Z",
+      "updatedAt": "2026-05-01T03:49:28.098Z"
+    },
+    "waapi": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/waapi/SKILL.md",
+      "skillFolderHash": "545ceebd5f498a9f68405e1d5a9ba6c0736b2434",
+      "installedAt": "2026-05-01T03:21:46.608Z",
+      "updatedAt": "2026-05-01T03:49:28.098Z"
+    },
+    "website-to-hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "skillPath": "skills/website-to-hyperframes/SKILL.md",
+      "skillFolderHash": "7d8e7062357a9e6608710cdcae210c1f3e836d59",
+      "installedAt": "2026-05-01T03:21:46.608Z",
+      "updatedAt": "2026-05-01T03:49:28.098Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp",
+    "claude-code"
+  ]
+}

@@ -29,7 +29,27 @@ Re-running `./install.sh` is safe — every step is idempotent.
 6. **colorls** gem (powers the `ls`/`ll`/`lc` aliases)
 7. **Symlinks** every file in `home/` into `$HOME` (existing files backed up to
    `*.backup`)
-8. **macOS defaults** (`macos.sh`) — optional, prompted
+8. **Claude Code + plugins + skills** (`scripts/claude.sh`) — optional, prompted
+9. **macOS defaults** (`macos.sh`) — optional, prompted
+
+### Claude Code setup
+
+`scripts/claude.sh` reproduces the full Claude environment:
+
+- Installs the **Claude Code** binary (official installer).
+- Symlinks `claude/CLAUDE.md`, `settings.json`, `settings.local.json` into
+  `~/.claude/`. The enabled **plugins** (superpowers, code-review, posthog,
+  railway, claude-mem, warp, github, frontend-design, code-simplifier,
+  swift-lsp, security-guidance) re-clone from their marketplaces automatically
+  on the next `claude` launch.
+- Installs **gstack** skills (`git clone … ~/.claude/skills/gstack && ./setup`).
+- Restores the **`~/.agents` skills** (auth0-*, hyperframes, remotion,
+  find-skills) via the `skills` CLI, using the exact set in
+  `claude/agents-skill-lock.json`.
+
+> Note: `settings.json` ships with `defaultMode: bypassPermissions` and
+> `skipDangerousModePermissionPrompt: true` — Claude runs without per-action
+> permission prompts. Edit that file if you want stricter defaults.
 
 ## Layout
 
@@ -39,7 +59,8 @@ Re-running `./install.sh` is safe — every step is idempotent.
 | `Brewfile` | Taps, formulae, casks for `brew bundle` |
 | `macos.sh` | `defaults write` system preferences |
 | `home/` | Dotfiles symlinked into `$HOME` (`.zshrc`, `.p10k.zsh`, `.gitconfig`, `.gitignore_global`, `.tool-versions`) |
-| `scripts/` | `brew.sh`, `asdf.sh`, `npm.sh`, `symlink.sh` |
+| `claude/` | Claude Code config symlinked into `~/.claude/` + agent-skills lockfile |
+| `scripts/` | `brew.sh`, `asdf.sh`, `npm.sh`, `symlink.sh`, `claude.sh` |
 
 ## What's installed
 

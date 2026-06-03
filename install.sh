@@ -85,7 +85,17 @@ fi
 bash "$DOTFILES_DIR/scripts/symlink.sh"
 
 ###############################################################################
-# 8. macOS system defaults                                                    #
+# 8. Claude Code + plugins + skills                                           #
+###############################################################################
+read -r -p "==> Install/restore Claude Code, plugins, and skills now? [y/N] " reply_claude
+if [[ "$reply_claude" =~ ^[Yy]$ ]]; then
+  bash "$DOTFILES_DIR/scripts/claude.sh"
+else
+  echo "    Skipped. Run ./scripts/claude.sh later if you want them."
+fi
+
+###############################################################################
+# 9. macOS system defaults                                                    #
 ###############################################################################
 read -r -p "==> Apply macOS system defaults now? [y/N] " reply
 if [[ "$reply" =~ ^[Yy]$ ]]; then
@@ -95,7 +105,7 @@ else
 fi
 
 ###############################################################################
-# 9. Manual TODO                                                              #
+# 10. Manual TODO                                                             #
 ###############################################################################
 cat <<'EOF'
 
@@ -107,6 +117,7 @@ cat <<'EOF'
         ssh-keygen -t ed25519 -C "junioassuncaocharles@gmail.com"
         pbcopy < ~/.ssh/id_ed25519.pub   # then paste into GitHub > Settings > SSH keys
   [ ] Sign in to apps: Chrome, Slack, Notion, Spotify, 1Password, etc.
+  [ ] Authenticate Claude Code: run `claude` and log in (then plugins finish restoring)
   [ ] Set up any required env vars / tokens (NPM_TOKEN, etc.) — not stored in this repo
   [ ] Run `p10k configure` if you want to re-tune the prompt
   [ ] Restart (or log out/in) so all macOS defaults take effect
