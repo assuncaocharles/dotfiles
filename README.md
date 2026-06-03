@@ -56,6 +56,16 @@ Re-running `./install.sh` is safe — every step is idempotent.
 - **npm globals:** pnpm, corepack, @railway/cli, auth0-deploy-cli, eas-cli,
   http-server
 
+## Terminal (Warp)
+
+Warp is installed by the Brewfile but **not** configured — its settings live in
+an internal database, not a versionable dotfile, so you set it up in the GUI:
+
+- Warp runs your `.zshrc`, so aliases, PATH, and tools work out of the box.
+- To use the powerlevel10k prompt instead of Warp's built-in one:
+  **Settings → Appearance → Prompt → "Honor the shell's custom prompt (PS1)"**.
+- Theme, font, and keybindings are configured per-machine in Warp's settings.
+
 ## Manual steps after install
 
 - Install Xcode and other App Store–only apps
