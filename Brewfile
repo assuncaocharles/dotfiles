@@ -49,11 +49,6 @@ brew "cloudflared"
 brew "supabase/tap/supabase"
 
 ####################################
-####           AI CLI           ####
-####################################
-brew "anomalyco/tap/opencode"
-
-####################################
 ####           Casks            ####
 ####################################
 cask "cursor"
@@ -69,8 +64,3 @@ cask "visual-studio-code"
 cask "warp"
 cask "whatsapp"
 cask "zoom"
-
-# Mobile / Java GUI
-cask "temurin"
-cask "temurin@17"
-cask "android-commandlinetools"
