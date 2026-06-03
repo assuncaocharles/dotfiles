@@ -1,0 +1,7 @@
+[user]
+	name = assuncaocharles
+	email = junioassuncaocharles@gmail.com
+[init]
+	defaultBranch = master
+[core]
+	excludesfile = ~/.gitignore_global
